@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;  /* Set a default font family for consistency */
+    background-color: #153448;  /* Light gray background */
+    margin: 0;  /* Remove default body margins */
+    padding: 20px;  /* Add some padding around the content */
+  }
+  
+  .calculator-container {
+    display: flex;  /* Align label, input, and button horizontally */
+    flex-direction: column;  /* Stack elements vertically */
+    align-items: center;  /* Center elements horizontally */
+    width: 300px;  /* Set a fixed width for the calculator */
+    margin: 0 auto;  /* Center the calculator horizontally */
+    border: 1px solid #ddd;  /* Add a thin border */
+    border-radius: 5px;  /* Add rounded corners */
+    padding: 20px;  /* Add some padding inside the calculator */
+    background-color: #fff;  /* White background for the calculator */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;  /* Subtle shadow effect */
+    padding: 50px;
+    margin-top: 40px;
+  }
+  #heading{
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 4px #00FF9C;
+  }
+  .calculator-container label {
+    margin-bottom: 5px;  /* Add some space below the label */
+  }
+  
+  #input {
+    padding: 10px;  /* Adjust input padding */
+    border: 1px solid #ccc;  /* Light gray border */
+    border-radius: 3px;  /* Rounded corners for input field */
+  }
+  
+  #btn {
+    padding: 10px 20px;  /* Adjust button padding */
+    background-color: #4CAF50;  /* Green button color */
+    color: white;  /* White text on button */
+    border: none;  /* Remove default border */
+    border-radius: 3px;  /* Rounded corners for button */
+    cursor: pointer;  /* Change cursor to pointer on hover */
+    transition: background-color 0.2s ease-in-out;  /* Smooth hover effect */
+    margin-top: 15px;
+    width: 100px;
+  }
+  
+  #btn:hover {
+    background-color: #3e8e41;  /* Darker green on hover */
+  }
+  
+  .results {
+    margin-top: 20px;  /* Add space above the results */
+  }
+  
+  .results p {
+    margin-bottom: 10px;  /* Add space between results */
+    font-weight: bold;  /* Make results text bold */
+  }
+  
