@@ -1,6 +1,5 @@
 
-
-function Get(){
+function GetValue(){
     const year = document.getElementById("input").value
     const days = year * 365;
     const Text_day = document.getElementById("t-days");
@@ -15,3 +14,16 @@ function Get(){
     const second = minutes * 60;
     Text_second.innerText = "You spent total " + second + " Seconds in Your Life!";
 }
+document.addEventListener("keypress", (event) => {
+    console.log(event.key)
+   if(event.key === "Enter") {
+
+  GetValue();
+   }
+
+else if(event.key === "z"){
+    window.location.reload();
+}
+});
+
+
